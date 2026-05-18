@@ -2,17 +2,33 @@
 
 `pySNOW` (a Python Suite for Nano-Objects Workflows'), is written in the [Python :fontawesome-brands-python:](https://www.python.org/) programming language with the aim of providing a user friendly integrated set of tools for the analysis of atomic configurations originating from MD and other atomistic simulations. The code is freely available on [GitHub](https://github.com/nanoMLMS/pySNOW).
 
+## Design principles
 
-## Workflow
-`pySNOW` has been developed with a few key design principles in mind: namely, (1) ease of use - to enable fast learning for a wide range of scientists with different backgrounds, (2) ease of modification, (3) independence from many complex packages, with the only required depdendencies being `numpy` and `scipy`, in order to maintain a high staibility during time and the less conflict possible for future versions, and (4) integrability with other simulation and analysis codes. 
-
-
-The workflow is organized into a series of modular components that enable step-by-step processing of atomic configurations generated from molecular dynamics (MD) or other atomistic simulation methods. Specifically, the framework supports data import, preprocessing, analysis through dedicated routines, and the extraction of relevant structural and physical properties.
-A schematic representation of the code workflow is shown in the figure below.
-
-![pySNOW workflow](assets/workflow.png)
+`pySNOW` is designed around a set of core principles:  
+(1) **ease of use** — enabling fast learning by scientists from diverse backgrounds,  
+(2) **ease of modification** — facilitating extension and customization of its components,  
+(3) **minimal dependencies** — relying only on `numpy` and `scipy` to ensure long-term stability and reduce compatibility issues with future releases, and  
+(4) **integrability** — allowing seamless interaction with external simulation and analysis workflows.
 
 Further details on the `pySNOW` ontology will be avaiable in an upcoming dedicated publication.
+
+
+## Documentation Structure
+
+This documentation is organized into the following sections:
+
+- Installation  
+- Physics  
+- Modules  
+- Tutorial  
+
+### Overview of modules workflow
+
+The `pySNOW` workflow is built as a set of modular components that enable step-by-step processing of atomic configurations generated from molecular dynamics (MD) simulations or other atomistic modeling techniques. The framework supports data import, preprocessing, and analysis through dedicated routines, ultimately enabling the extraction of relevant structural and physical properties.
+
+A schematic representation of the workflow is shown below:
+
+![pySNOW workflow](assets/workflow.png)
 
 
 
