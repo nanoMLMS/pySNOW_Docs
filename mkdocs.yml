@@ -51,7 +51,7 @@ nav:
         - xyz: io/xyz.md
         - lammps: io/lammps.md
 
-    - Tutorials: tutorials.md
+  - Tutorials: tutorials.md
 
 markdown_extensions:
   - attr_list
