@@ -32,8 +32,9 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
+  - Installation: install.md
+
   - Tutorials:
-    - Installation: install.md
     - Single Atom Descriptors:
       - Generalized Coordination Number: GCN.md
       - Common Neighbour Analysis: CNA.md
@@ -47,16 +48,11 @@ nav:
         - GCN: descriptors/gcn.md
         - LAE: descriptors/lae.md
         - Steinhardt: descriptors/steinhardt.md
-    - Lodispp:
-        - CNA: descriptors/cna.md
-        - Physics: lodispp/physics.md
-        - PP IO: pp_io.md
-        - Utils: lodispp/utils.md
-    - Strain:
-        - Strain Mono: strain/strain_mono.md
     - Misc:
         - Constants: misc/constants.md
         - Transform: misc/transform.md
+    - IO:
+        - xyz: io/xyz.md
 
 markdown_extensions:
   - attr_list
@@ -81,12 +77,19 @@ markdown_extensions:
       generic: true
   - admonition
   - pymdownx.details
-  - attr_list
   - md_in_html
   - pymdownx.blocks.caption
+
 plugins:
 - search
-- mkdocstrings
+- mkdocstrings:
+    handlers:
+      python:
+        options:
+          docstring_style: numpy
+          show_source: true #collapsible show_source button
+          show_root_heading: true #show where we are
+          members_order: source    # keeps the order from the source file
 
 extra_javascript:
   - javascripts/mathjax.js

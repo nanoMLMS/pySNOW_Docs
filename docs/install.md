@@ -1,7 +1,6 @@
 # Installing pySNOW
-Installing pySNOW is (*should be*) quite easy.
 
-The first step (suggested) is to create a python environment for installation to avoid confilcts with previously installed libraries or different versions of required modules:
+The first step (suggested) is to create a python environment for installation to avoid confilcts with previously installed libraries or different versions of required modules, e.g.:
 
 === "Linux"
 
@@ -23,7 +22,7 @@ The first step (suggested) is to create a python environment for installation to
     python -m venv snowenv
     .\snowenv\Scripts\activate
     ```
-Note that pySNOW b default requires a version of python >= 3.9, however users can optionally try to change this in the **pyproject.toml** file, this however has not been tried and might result in unwanted behaviour. Going below python 3 is sure to cause issues due to syntax differences.
+Note that pySNOW requires a version of python >= 3.9, however users can optionally try to change this in the **pyproject.toml** file, this however has not been tried and might result in unwanted behaviour. Going below python 3 is sure to cause issues due to syntax differences.
 
 After creating and activating the virtual environment you can clone the repository (or download the code as a zip and uncompressing it in any deisred location):
 
@@ -31,7 +30,7 @@ After creating and activating the virtual environment you can clone the reposito
 git clone https://github.com/nanoMLMS/pySNOW.git pysnow && cd pysnow
 ```
 
-From here you should be able to easily install the package by running:
+From here you can install the package by running:
 ```bash
 pip install .
 ```
@@ -42,7 +41,7 @@ pytest .
 ```
 from the pysnow folder.
 
-Requirments for pYSNOW are [NumPy](https://numpy.org/) and [SciPy](https://scipy.org/), which are automatically installed with pySNOW, additional optional dependencies are:
+Requirments for pySNOW are [NumPy](https://numpy.org/) and [SciPy](https://scipy.org/), which are automatically installed with pySNOW, additional optional dependencies are:
 
 - [tqdm](https://tqdm.github.io/) for progress bars to check progress of long computations
 - [ase](https://ase-lib.org/) for advanced input/output and exploitation of functions implemented there (note that ase is based on classes encapsulating structures rather than simple arrays)
