@@ -30,10 +30,9 @@ theme:
 
 
 nav:
-  - Home: index.md
+  - Home: home.md
   - Installation: install.md
   - Physics: physics.md
-  - Tutorials: tutorials.md
 
   - Modules:
     - descriptors:
@@ -47,11 +46,12 @@ nav:
     - catalysis:
         - add_molecule: catalysis/add_molecule.md
     - misc:
-        - constants: misc/constants.md
-        - transform: misc/transform.md
+        - transform: misc/rototranslation.md
     - io:
         - xyz: io/xyz.md
         - lammps: io/lammps.md
+
+    - Tutorials: tutorials.md
 
 markdown_extensions:
   - attr_list
