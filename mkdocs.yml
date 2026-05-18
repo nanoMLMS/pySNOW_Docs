@@ -17,7 +17,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: green
+      primary: indigo
       accent: deep purple
 
     # Light Mode
@@ -31,28 +31,27 @@ theme:
 
 nav:
   - Home: index.md
-  - About: about.md
   - Installation: install.md
-
-  - Tutorials:
-    - Single Atom Descriptors:
-      - Generalized Coordination Number: GCN.md
-      - Common Neighbour Analysis: CNA.md
-    - Global Descriptors:
-      - Distribution Functions: pddf_rdf.md 
-    - Building Things:
-      - Adding Molecules: add_molecule.md
+  - Physics: physics.md
+  - Tutorials: tutorials.md
 
   - Modules:
-    - Descriptors:
-        - GCN: descriptors/gcn.md
-        - LAE: descriptors/lae.md
-        - Steinhardt: descriptors/steinhardt.md
-    - Misc:
-        - Constants: misc/constants.md
-        - Transform: misc/transform.md
-    - IO:
+    - descriptors:
+        - distributions:     descriptors/distributions.md
+        - coordination:      descriptors/coordination.md
+        - cna:               descriptors/cna.md
+        - saxs:              descriptors/saxs.md
+        - shape_descriptors: descriptors/shape_descriptors.md
+        - time_dependent:    descriptors/time_dependent.md
+        - utils:             descriptors/utils.md
+    - catalysis:
+        - add_molecule: catalysis/add_molecule.md
+    - misc:
+        - constants: misc/constants.md
+        - transform: misc/transform.md
+    - io:
         - xyz: io/xyz.md
+        - lammps: io/lammps.md
 
 markdown_extensions:
   - attr_list
