@@ -45,6 +45,7 @@ nav:
         - utils:             descriptors/utils.md
     - catalysis:
         - add_molecule: catalysis/add_molecule.md
+        - Pt_ORR: catalysis/Pt_ORR.md
     - misc:
         - transform: misc/rototranslation.md
     - io:
