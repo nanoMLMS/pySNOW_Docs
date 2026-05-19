@@ -30,7 +30,7 @@ theme:
 
 
 nav:
-  - Home: home.md
+  - Home: index.md
   - Installation: install.md
   - Physics: physics.md
 
