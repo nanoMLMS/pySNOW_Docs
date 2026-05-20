@@ -27,5 +27,4 @@ jobs:
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: |
-          mkdocs build --clean
-          mkdocs gh-deploy --force
+          mkdocs gh-deploy --force --clean
