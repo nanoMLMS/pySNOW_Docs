@@ -64,7 +64,7 @@ Here some of the main contributors:
       <b>Gilberto Nardi</b>
     </td>
     <td align="center">
-      <img src="assets/Giacomo_Becatti.png" width="120"><br>
+      <img src="assets/Giacomo_Becatti.jpeg" width="120"><br>
       <b>Giacomo Becatti</b>
     </td>
     <td align="center">
