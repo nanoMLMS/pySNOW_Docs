@@ -52,7 +52,7 @@ Here some of the main contributors:
 <table>
   <tr>
     <td align="center">
-      <img src="assets/francesca.png" width="120"><br>
+      <img src="assets/Francesca_Baletto.png" width="120"><br>
       <b>Francesca Baletto</b>
     </td>
     <td align="center">
@@ -64,11 +64,11 @@ Here some of the main contributors:
       <b>Gilberto Nardi</b>
     </td>
     <td align="center">
-      <img src="assets/name2.png" width="120"><br>
+      <img src="assets/Giacomo_Becatti.png" width="120"><br>
       <b>Giacomo Becatti</b>
     </td>
     <td align="center">
-      <img src="assets/name2.png" width="120"><br>
+      <img src="assets/Davide_Alimonti.jpeg" width="120"><br>
       <b>Davide Alimonti</b>
     </td>
   </tr>
