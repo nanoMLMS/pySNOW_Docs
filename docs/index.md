@@ -1,5 +1,5 @@
 <h1>
-  <img src="images/logo.png" width="100" valign="middle">
+  <img src="assets/logo.png" width="100" valign="middle">
   pySNOW
 </h1>
 
@@ -52,23 +52,23 @@ Here some of the main contributors:
 <table>
   <tr>
     <td align="center">
-      <img src="images/francesca.png" width="120"><br>
+      <img src="assets/francesca.png" width="120"><br>
       <b>Francesca Baletto</b>
     </td>
     <td align="center">
-      <img src="images/name1.png" width="120"><br>
+      <img src="assets/Sofia_Zinzani.jpg" width="120"><br>
       <b>Sofia Zinzani</b>
     </td>
     <td align="center">
-      <img src="images/name2.png" width="120"><br>
+      <img src="assets/Gilberto_Nardi.jpeg" width="120"><br>
       <b>Gilberto Nardi</b>
     </td>
     <td align="center">
-      <img src="images/name2.png" width="120"><br>
+      <img src="assets/name2.png" width="120"><br>
       <b>Giacomo Becatti</b>
     </td>
     <td align="center">
-      <img src="images/name2.png" width="120"><br>
+      <img src="assets/name2.png" width="120"><br>
       <b>Davide Alimonti</b>
     </td>
   </tr>

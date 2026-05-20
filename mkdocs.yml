@@ -3,7 +3,7 @@ site_name: pySNOW Documentation
 theme:
   name: material
   
-  logo: assets/logo_2.png
+  logo: assets/logo.png
   favicon: assets/favicon.ico
   features:
     - content.code.copy
