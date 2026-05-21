@@ -56,19 +56,19 @@ Here some of the main contributors:
       <b>Francesca Baletto</b>
     </td>
     <td align="center">
-      <img src="assets/Sofia_Zinzani.jpg" width="120"><br>
+      <img src="assets/Sofia_Zinzani.png" width="120"><br>
       <b>Sofia Zinzani</b>
     </td>
     <td align="center">
-      <img src="assets/Gilberto_Nardi.jpeg" width="120"><br>
+      <img src="assets/Gilberto_Nardi.png" width="120"><br>
       <b>Gilberto Nardi</b>
     </td>
     <td align="center">
-      <img src="assets/Giacomo_Becatti.jpeg" width="120"><br>
+      <img src="assets/Giacomo_Becatti.png" width="120"><br>
       <b>Giacomo Becatti</b>
     </td>
     <td align="center">
-      <img src="assets/Davide_Alimonti.jpeg" width="120"><br>
+      <img src="assets/Davide_Alimonti.png" width="120"><br>
       <b>Davide Alimonti</b>
     </td>
   </tr>
