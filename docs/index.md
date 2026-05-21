@@ -4,7 +4,7 @@
 </h1>
 
 
-`pySNOW` (a Python Suite for (characterising) NanO-World), is written in the [Python :fontawesome-brands-python:](https://www.python.org/) programming language with the aim of providing a user friendly integrated set of tools for the analysis of atomic configurations originating from MD and other atomistic simulations. The code is freely available on [GitHub](https://github.com/nanoMLMS/pySNOW).
+`pySNOW` (a Python Suite for the NanO-World), is written in the [Python :fontawesome-brands-python:](https://www.python.org/) programming language with the aim of providing a user friendly integrated set of tools for the analysis of atomic configurations originating from MD and other atomistic simulations. The code is freely available on [GitHub](https://github.com/nanoMLMS/pySNOW).
 
 ## Design principles
 
