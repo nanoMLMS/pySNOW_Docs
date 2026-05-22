@@ -37,12 +37,8 @@ A schematic representation of the workflow is shown below:
 
 
 ## How to cite
-To cite pySNOW you can refer to the following github DOI:
-https://github.com/nanoMLMS/pySNOW
-
-or the link to the github page:
-https://github.com/nanoMLMS/pySNOW
-
+To cite pySNOW you can refer to the following DOI:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20307346.svg)](https://doi.org/10.5281/zenodo.20307346)
 
 ## The team
 `pySNOW` is developed within the research group of Francesca Baletto at the University of Milan.
