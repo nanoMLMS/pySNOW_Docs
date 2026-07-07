@@ -149,7 +149,7 @@ Here the reference works from F. Calle-Vallejo and coworkers:
 
 The MSD of a trajectory is defined as:
 $$
-MSD(t) = \sum_{i=1}^N|\mathbf{r}_i(t)-\mathbf{r}_i(0)|^2
+MSD(t) = \frac{1}{N} \sum_{i=1}^N|\mathbf{r}_i(t)-\mathbf{r}_i(0)|^2
 $$
 where $\mathbf{r}_i$ is the positions vector of the $i$-th particle and $i$ runs over the $N$ particles in the system. The MSD is a convenient measure of diffusion and movement in an atomistic system.
 
